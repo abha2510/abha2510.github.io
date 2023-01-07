@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.364425a3.css",
-    "main.js": "/static/js/main.6572bdf2.js",
-    "static/media/ab.png": "/static/media/ab.bcaf3f2caea0e0bb5988.png",
+    "main.css": "/static/css/main.85a734b4.css",
+    "main.js": "/static/js/main.97cc81ce.js",
+    "static/media/classy.png": "/static/media/classy.bf0e7385048c0b1ad7a0.png",
+    "static/media/travel.png": "/static/media/travel.2e578626e5e11a4ad4ab.png",
+    "static/media/crick.png": "/static/media/crick.d1c45fbe2499f0528c32.png",
+    "static/media/Abha_Meshram_Resume.pdf": "/static/media/Abha_Meshram_Resume.7a193ac28db0b7324774.pdf",
+    "static/media/no.png": "/static/media/no.3d33a2c930079cd8017a.png",
     "static/media/hero.png": "/static/media/hero.3044ce4266496fbaf169.png",
     "index.html": "/index.html",
-    "main.364425a3.css.map": "/static/css/main.364425a3.css.map",
-    "main.6572bdf2.js.map": "/static/js/main.6572bdf2.js.map"
+    "main.85a734b4.css.map": "/static/css/main.85a734b4.css.map",
+    "main.97cc81ce.js.map": "/static/js/main.97cc81ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.364425a3.css",
-    "static/js/main.6572bdf2.js"
+    "static/css/main.85a734b4.css",
+    "static/js/main.97cc81ce.js"
   ]
 }
