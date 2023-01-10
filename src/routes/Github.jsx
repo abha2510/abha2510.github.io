@@ -20,6 +20,8 @@ const Github = () => {
         m={40}
         w='100%'
       />
+
+      
       {/* ayu-light */}
       <h1 style={{marginLeft: "40%",color:"#F26B8A", marginBottom:"6%"}}>GitHub Stats</h1>
        <img  src="https://github-readme-streak-stats.herokuapp.com/?user=abha2510&theme=deuteranopia-friendly-theme" alt="stat" />
