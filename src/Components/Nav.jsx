@@ -5,7 +5,7 @@ import {FaBars, FaTimes} from "react-icons/fa";
 import { useState } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { Box } from '@chakra-ui/react';
-import resume from "../assests/Abha_Meshram_Resume.pdf"
+
 
 const Nav = () => {
   const [click,setClick]=useState(false);
@@ -27,22 +27,21 @@ window.addEventListener("scroll",changeColor)
         <h1><ChevronLeftIcon style={{fontSize:"40",color:"#F26B8A"}}/>Abha <span style={{color:"#F26B8A"}}>/</span>
         <ChevronRightIcon style={{fontSize:"40",marginLeft:"-8",color:"#F26B8A"}}/></h1>
       </Link>
-     
       <ul className={click?"nav-menu active":"nav-menu"}>
         <li>
-        <Box><a href="#" color='white'>Home</a></Box>
+      <Box onClick={handleClick}><a href="#" color='white'>Home</a></Box>
        </li>
         <li>
-        <Box><a href="#about" color='white'>About Me</a></Box>
+        <Box onClick={handleClick}><a href="#about" color='white'>About Me</a></Box>
         </li>
         <li>
-        <Box><a href="#skills" color='white'>Skills</a></Box>
+        <Box onClick={handleClick}><a href="#skills" color='white'>Skills</a></Box>
         </li>
         <li>
-        <Box><a href="#project" color='white'>Projects</a></Box>
+        <Box onClick={handleClick}><a href="#project" color='white'>Projects</a></Box>
         </li>
         <li>
-        <Box><a href="#contact" color='white'>Contact</a></Box>
+        <Box onClick={handleClick}><a href="#contact" color='white'>Contact</a></Box>
         </li>
         <li>
         <Box><a href="https://drive.google.com/file/d/1Twy6kX4myuQuOISug1Egws0iTErwxg9v/view?usp=sharing" download="true">Resume</a></Box>

@@ -2,12 +2,13 @@
 import React from 'react'
 import "./AboutStyle.css";
 import no from "../assests/no.png";
-import { Box, Code } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
+import {FaUserAlt} from "react-icons/fa"
 
 //#F26B8A
 const About = () => {
   return (
-    <>
+    <div>
     <Box className='about' id="about">
     <div className='abt'>
     <div className='right'>
@@ -18,14 +19,14 @@ const About = () => {
       </div>
    </div>
     <div className='left'>
-      <h1 style={{color:'#F26B8A'}}>Who Am I?</h1>
+      <h1 style={{color:'#F26B8A'}}><FaUserAlt className='bounce2'/>  Who Am I?</h1>
       <p className='detail'>I am a 
      
-      <img className='developer' src="https://readme-typing-svg.herokuapp.com?color=FFF&center=true&lines=Full+Stack+Web+Developer" />
+      <img className='developer' src="https://readme-typing-svg.herokuapp.com?color=F26B8A&center=true&lines=Full+Stack+Web+Developer" alt="img"/>
         <br/>
 
         Disciplined, hard-working, and ambitious Web Developer.  
-        1200+ hours of coding and solved more than 700+ DSA questions
+        1200+ hours of coding and solved more than 200+ DSA questions
         Looking forward to utilizing my current skillset and experience of working 
         on projects to create a mark in the Web Developer position and achieve 
         organizational goals.</p>
@@ -36,7 +37,7 @@ const About = () => {
     
     </div>
     </Box>
-    </>
+    </div>
   )
   
 }

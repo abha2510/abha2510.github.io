@@ -1,36 +1,48 @@
 import { Box } from '@chakra-ui/react';
 import React from 'react'
-import GitHubCalendar from "react-github-calendar";
+import "./GithubStyle.css";
+import Fade from 'react-reveal/Fade';
+import {GoCalendar} from "react-icons/go";
+import {TfiStatsUp} from "react-icons/tfi";
+import GitHubCalendar from 'react-github-calendar';
 
 
 const Github = () => {
-
   return (
-    <>
+    <div>
     <Box  color={"white"}  w="80%">
-          <h1 style={{ marginLeft: "53%",color:"#F26B8A"}}>GitHub-Calendar</h1>
+          <h1 style={{ marginLeft: "53%",color:"#F26B8A"}}><GoCalendar className="bounce2"/>   GitHub-Calendar</h1>
           <Box px={['2%','4%','8%','16%','24%']} py={8} mt={20} >
-            <div style={{width:"150%"}}>
-   <GitHubCalendar
+            <div className='gitcalendar'>
+            <Fade left>
+              <div  className="cal">           
+        <GitHubCalendar
         username="abha2510"
         blockSize={20}
-        blockMargin={5}
-        color="#F26B8A"
+        m={"auto"}
+        blockMargin={6}
         fontSize={20}
-        m={40}
-        w='100%'
-      />
-
+        color={"#1877f2"} 
+        />
       
-      {/* ayu-light */}
-      <h1 style={{marginLeft: "40%",color:"#F26B8A", marginBottom:"6%"}}>GitHub Stats</h1>
+    </div>
+    </Fade>   
+      <div className='stats'>
+      <h1><TfiStatsUp className='bounce2'/>  GitHub Stats</h1>
+      <Fade right>
+      <div className='statimg'>
        <img  src="https://github-readme-streak-stats.herokuapp.com/?user=abha2510&theme=deuteranopia-friendly-theme" alt="stat" />
+       </div>
+       </Fade>
+       </div>
        </div>
       </Box>
     
     </Box>
-    </>
+     </div>
   )
 }
 
 export default Github
+
+

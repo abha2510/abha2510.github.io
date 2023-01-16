@@ -4,6 +4,7 @@ import React from 'react';
 import { FaGithub, FaHome, FaLinkedinIn, FaPhone } from 'react-icons/fa';
 import "./ContactStyle.css";
 import Zoom from 'react-reveal/Zoom';
+import {IoMdContacts} from "react-icons/io"
 
 
 const Contact = () => {
@@ -13,7 +14,7 @@ const Contact = () => {
       <div className='contactDetail'>
       <Zoom bottom>
       <div className='le'>
-      <h1 className='conthead'>CONTACT</h1>
+      <h1 style={{color: "#F26B8A",marginTop: "-10px"}}><IoMdContacts className='bounce2'/> CONTACT</h1>
    <span className='ba'></span>
            <div className='location'>
             <FaHome size={20} style={{color:"#4285F4" ,marginRight:"2rem"}}/>          
@@ -49,6 +50,8 @@ const Contact = () => {
         </Zoom>
         </div>
         </Box>
+
+        
     </div>
   )
 }

@@ -1,0 +1,59 @@
+.gitcalendar{
+    width:150%; 
+}
+.cal{
+    border: 2px solid #fff;
+    padding: 5px;
+    box-shadow: rgb(234, 140, 178) 0px 20px 30px -10px;
+    /* background-color: rgb(19, 164, 227); */
+}
+.stats h1{
+    margin-left: 40%;
+    color:#F26B8A;
+     margin-bottom:6%;
+}
+.stats{
+    border: 0px solid green;
+    margin-top: 70px;
+}
+.statimg{
+    border: 0px solid rgb(64, 0, 255);
+    box-shadow: rgb(234, 140, 178) 0px 20px 30px -10px;
+}
+.bounce2 {
+    animation: bounce2 2s ease infinite;
+    color: #fff;
+  }
+  @keyframes bounce2 {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-30px);}
+      60% {transform: translateY(-15px);}
+  }
+ @media screen and (max-width:760px){
+    .bounce2{
+       margin-left: -50px; 
+       border: 0px solid red;
+    } 
+    .cal{
+        border: 0px solid red;
+        width: 100%;
+        margin-left: -80px;
+        padding: 2px;
+        height: 140px;
+
+    }
+    .stats h1{
+        font-size: medium;
+    }
+    .git h1{
+        font-size: medium;
+    }
+} 
+/* @media screen and (max-width:1080px){
+    .cal{
+        padding: 1;
+        border: 1px solid red;
+        width: 100%;
+        margin-left: -50px;
+    }
+} */

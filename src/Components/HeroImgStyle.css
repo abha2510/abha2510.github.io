@@ -9,7 +9,6 @@
     background-size: cover;
     background-position:center ;
     object-fit: cover;
-    
 }
 .mask::after{
     content: "";
@@ -37,21 +36,31 @@
 }
 .hero .content p{
     font-size: 1.4rem;
-    font-weight: 200;
+    font-weight: 230;
     text-transform: uppercase;
 }
 .content .btn{
-    margin: 1rem 0.2rem;
+   margin: 1rem 0.2rem;
    margin: auto;
 
 }
-
+.swing {
+	transform-origin: top center;
+	animation: swing 2s ease infinite;
+}
+@keyframes swing {
+	20% { transform: rotate(15deg); }	
+	40% { transform: rotate(-10deg); }
+	60% { transform: rotate(5deg); }	
+	80% { transform: rotate(-5deg); }	
+	100% { transform: rotate(0deg); }
+}
 .box{
     display: flex;
     margin-left: 30%;
-    
+    gap:8px
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:760px){
     .hero .content h1{
         font-size: 3rem;
         
@@ -66,11 +75,11 @@
     margin-top: 10px;
    }
 }
-/* @media screen and (max-width:1030px){
+@media screen and (max-width:1080px){
     .box{
         margin: auto;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        margin-top: 10px;
+        margin-top: 20px;
        }
-} */
+}

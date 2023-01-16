@@ -6,13 +6,15 @@ import {FaCss3Alt, FaNodeJs, FaReact} from "react-icons/fa";
 import {TbBrandJavascript} from "react-icons/tb"
 import { SiExpress, SiMongodb, SiRedux } from 'react-icons/si';
 import Rotate from 'react-reveal/Rotate';
+import {SiSkillshare} from "react-icons/si"
 
 const Skills = () => {
   return (
-    <div>
+    <div className='ab'>
       <Box className='skills' id="skills" w="full" color="#ffffff" p="30px 0px">
-      <h1 className='skill'>SKILLS</h1>
-        <span className='bar'></span>
+      <h1 style={{marginLeft:"45%",color:"#F26B8A"}}><SiSkillshare className='bounce2'/>  SKILLS</h1>
+        <span className='bar2'></span>
+        <div className='contain'>
         <Box w="85%" m="auto">        
         <Box className='main' >
         <Rotate top left>  
@@ -69,6 +71,7 @@ const Skills = () => {
         </Rotate>
         </Box>
         </Box>
+        </div>
     </Box>
     </div>
   )
