@@ -10,6 +10,7 @@
 }
 body{
   background-color: black;
+  overflow-x: hidden;
 }
 h1,h4,p,a{
   color:white;

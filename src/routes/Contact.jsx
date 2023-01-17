@@ -1,5 +1,5 @@
 import { EmailIcon } from '@chakra-ui/icons';
-import { Box } from '@chakra-ui/react'
+import { Box, Input } from '@chakra-ui/react'
 import React from 'react';
 import { FaGithub, FaHome, FaLinkedinIn, FaPhone } from 'react-icons/fa';
 import "./ContactStyle.css";
@@ -11,6 +11,7 @@ const Contact = () => {
   return (
     <div>
       <Box className='contact' id="contact">
+      <div>
       <div className='contactDetail'>
       <Zoom bottom>
       <div className='le'>
@@ -49,9 +50,8 @@ const Contact = () => {
         </div>
         </Zoom>
         </div>
-        </Box>
-
-        
+        </div>
+        </Box>    
     </div>
   )
 }

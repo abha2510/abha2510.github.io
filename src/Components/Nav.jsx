@@ -24,7 +24,7 @@ window.addEventListener("scroll",changeColor)
     <>    
     <div className={color?"header header-bg":"header"}>
       <Link to="/">
-        <h1><ChevronLeftIcon style={{fontSize:"40",color:"#F26B8A"}}/>Abha <span style={{color:"#F26B8A"}}>/</span>
+        <h1 className='name'><ChevronLeftIcon style={{fontSize:"40",color:"#F26B8A"}}/>Abha <span style={{color:"#F26B8A"}}>/</span>
         <ChevronRightIcon style={{fontSize:"40",marginLeft:"-8",color:"#F26B8A"}}/></h1>
       </Link>
       <ul className={click?"nav-menu active":"nav-menu"}>

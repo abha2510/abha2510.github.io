@@ -36,7 +36,7 @@
 }
 .card:hover {
    transform: scale(1.3);
-   box-shadow: rgba(239, 100, 165, 0.25) 0px 14px 28px, rgba(186, 89, 138, 0.22) 0px 10px 10px;
+   box-shadow: rgb(118, 88, 100) 0px 20px 30px -10px;
    /* background-color: #343132; */
 }
 .bar{
