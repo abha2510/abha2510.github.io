@@ -5,6 +5,7 @@ import {FaBars, FaTimes} from "react-icons/fa";
 import { useState } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { Box } from '@chakra-ui/react';
+import resume from "../assests/Abha_Meshram_Resume.pdf"
 
 
 const Nav = () => {
@@ -44,7 +45,15 @@ window.addEventListener("scroll",changeColor)
         <Box onClick={handleClick}><a href="#contact" color='white'>Contact</a></Box>
         </li>
         <li>
-        <Box><a href="https://drive.google.com/file/d/1Twy6kX4myuQuOISug1Egws0iTErwxg9v/view?usp=sharing" download="true">Resume</a></Box>
+        <Box><a 
+         onClick={()=>{
+          window.open(
+            "https://drive.google.com/file/d/1Twy6kX4myuQuOISug1Egws0iTErwxg9v/view?usp=share_link","blank"
+          )
+        }}
+        href={resume}
+        download="Abha_Meshram_Resume"
+        >Resume</a></Box>
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>

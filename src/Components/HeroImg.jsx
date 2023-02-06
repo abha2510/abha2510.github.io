@@ -1,7 +1,9 @@
 import "./HeroImgStyle.css";
 import heroImg from "../assests/hero.png"
 import React from 'react'
-import {HiOutlineHandRaised} from "react-icons/hi2"
+import {HiOutlineHandRaised} from "react-icons/hi2";
+import resume from "../assests/Abha_Meshram_Resume.pdf"
+import {BsDownload} from "react-icons/bs"
 
 const HeroImg = () => {
   return (
@@ -16,7 +18,15 @@ const HeroImg = () => {
         <div className="box">
             <p><a href="#project" className="btn" >Projects</a></p>
           
-            <p><a href="#contact" className="btn btn-light">Contact</a></p>
+            <p><a 
+            onClick={()=>{
+              window.open(
+                "https://drive.google.com/file/d/1Twy6kX4myuQuOISug1Egws0iTErwxg9v/view?usp=share_link","blank"
+              )
+            }}
+            href={resume}
+            download="Abha_Meshram_Resume"
+            className="btn btn-light"><BsDownload/><span style={{marginLeft:"10px"}}>Resume</span></a></p>
            
         </div>
       </div>

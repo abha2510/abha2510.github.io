@@ -1,12 +1,11 @@
-
 import React from 'react';
-import {  TbCopyright} from 'react-icons/tb';
 import "./FooterStyle.css";
+import {FaHeart} from "react-icons/fa"
 
 const Footer = () => {
   return (
     <div className='footer'>
-     <TbCopyright style={{marginTop:"5px"}}/> 2023 All rights reserved.
+   <FaHeart color="red"/> Created By Abha Meshram.
     </div>
   )
 }

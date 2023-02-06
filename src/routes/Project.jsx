@@ -5,15 +5,15 @@ import classy from "../assests/classy.png";
 import {FaReact} from "react-icons/fa"
 import {SiChakraui} from "react-icons/si";
 import {FaHtml5} from "react-icons/fa";
-import {SiJavascript} from "react-icons/si";
+import {SiJavascript,SiRedux} from "react-icons/si";
 import {FaCss3Alt} from "react-icons/fa";
 import travel from "../assests/travel.png";
-import crick from "../assests/crick.png";
 import Roll from 'react-reveal/Roll';
 import yt from "../assests/yt.png"
 import mealdb from "../assests/mealdb.png"
 import hotstar from "../assests/hotstar.png"
-import {VscProject} from "react-icons/vsc"
+import {VscProject} from "react-icons/vsc";
+import digital from "../assests/digital.png";
 
 const Project = () => {
   return (
@@ -25,36 +25,91 @@ const Project = () => {
     <div className='project'>
     
       <div className='card-container'>
+
+      <div className='card'>
+          <img src={digital} alt="digitalXpress" />
+         
+          <h1 className='name'>Digital Xpress</h1>
+          <span className='bar'></span>
+         <p>Digital Xpress is one of the leading online shopping websites in
+           India for electronic products, home & kitchen appliances etc.
+         </p>
+         <h3 className='techstack'> TechStacks:</h3>
+         <div className='icon'>
+        <Roll down>
+        <div style={{color:"#AF69EF",fontSize:20 , marginLeft:"-40px"}}>
+        <SiRedux/>
+        <h6>Redux</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"#00ffff",fontSize:20}}>
+        <FaReact/>
+        <h6>React</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"yellow",fontSize:20}}>
+        <SiJavascript/>
+        <h6>JS</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"#00cdcd",fontSize:20}}>
+        <SiChakraui/>
+        <h6>ChakraUI</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"blue",fontSize:20}}>
+        <FaCss3Alt/>
+        <h6>CSS</h6>
+        </div>
+        </Roll>
+        </div>
+         <div className="button">
+         <p><a href="https://github.com/imukeshkaushal/relianceDigital_clone" className="btn" >GitHub</a></p>
+         <p><a href="https://adventurous-sweater-7809.vercel.app/" className="btn btn-light">Live</a></p>
+        </div>
+        </div>
+     
+
         <div className='card'>
           <img  src={classy} alt="classyattire" />
          
           <h1 className='name'>Classy Attire</h1>
           <span className='bar'></span>
          <p>Classy Attire as a trendy, youthful and vibrant store, Classy Attire offers consumers an enjoyable shopping experience.</p>
+        <h3 className='techstack'> TechStacks:</h3>
        <div className='icon'>
        <Roll down>
-        <div style={{color:"#00ffff",fontSize:30 , marginLeft:"-20px"}}>
+        <div style={{color:"#00ffff",fontSize:20 , marginLeft:"-40px"}}>
         <FaReact/>
+        <h6>React</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"#00cdcd",fontSize:30}}>
+        <div style={{color:"#00cdcd",fontSize:20}}>
         <SiChakraui/>
+        <h6>ChakraUI</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"orangered",fontSize:30}}>
+        <div style={{color:"orangered",fontSize:20}}>
         <FaHtml5/>
+        <h6>HTML</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"yellow",fontSize:30}}>
+        <div style={{color:"yellow",fontSize:20}}>
         <SiJavascript/>
+        <h6>JS</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"blue",fontSize:30}}>
+        <div style={{color:"blue",fontSize:20}}>
         <FaCss3Alt/>
+        <h6>CSS</h6>
         </div>
       </Roll>
         </div>
@@ -71,20 +126,24 @@ const Project = () => {
           <h1 className='name'>Traveladvisor</h1>
           <span className='bar'></span>
          <p>Traveladvisor offers online hotel reservations and bookings for transportation, lodging, travel experiences, and restaurants.</p>
+         <h3 className='techstack'> TechStack:</h3>
          <div className='icon'>
        <Roll down>
-        <div style={{color:"orangered",fontSize:30}}>
+        <div style={{color:"orangered",fontSize:20}}>
         <FaHtml5/>
+        <h6>HTML</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"yellow",fontSize:30}}>
+        <div style={{color:"yellow",fontSize:20}}>
         <SiJavascript/>
+        <h6>JS</h6>
         </div>
         </Roll>
         <Roll>
-        <div style={{color:"blue",fontSize:30}}>
+        <div style={{color:"blue",fontSize:20}}>
         <FaCss3Alt/>
+        <h6>CSS</h6>
         </div>
         </Roll>
         </div>
@@ -93,39 +152,6 @@ const Project = () => {
          <p><a href="https://stalwart-fox-86b96a.netlify.app/" className="btn btn-light">Live</a></p>
          </div>
         </div>
-      
-     
-        <div className='card'>
-          <img src={crick} alt="crickinfo" />
-         
-          <h1 className='name'>ESPN cricinfo</h1>
-          <span className='bar'></span>
-         <p>ESPN cricinfo is a sports news website exclusively for the game of cricket.
-         CrickInfo app is all about Cricket and the fastest live cricket score app.
-         </p>
-         <div className='icon'>
-        <Roll down>
-        <div style={{color:"orangered",fontSize:30}}>
-        <FaHtml5/>
-        </div>
-        </Roll>
-        <Roll down>
-        <div style={{color:"yellow",fontSize:30}}>
-        <SiJavascript/>
-        </div>
-        </Roll>
-        <Roll down>
-        <div style={{color:"blue",fontSize:30}}>
-        <FaCss3Alt/>
-        </div>
-        </Roll>
-        </div>
-         <div className="button">
-         <p><a href="https://github.com/RAVISH111/joyful-pet-260" className="btn" >GitHub</a></p>
-         <p><a href="https://magenta-faloodeh-c04fb0.netlify.app/" className="btn btn-light">Live</a></p>
-        </div>
-        </div>
-     
 
         <div className='card'>
           <img src={mealdb} alt="MealDb" />
@@ -134,20 +160,24 @@ const Project = () => {
           <span className='bar'></span>
          <p>TheMealDB is an application that can assist you with finding food in an emergency. 
          </p>
+         <h3 className='techstack'> TechStacks:</h3>
          <div className='icon'>
         <Roll down>
-        <div style={{color:"orangered",fontSize:30}}>
+        <div style={{color:"orangered",fontSize:20}}>
         <FaHtml5/>
+        <h6>HTML</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"yellow",fontSize:30}}>
+        <div style={{color:"yellow",fontSize:20}}>
         <SiJavascript/>
+        <h6>JS</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"blue",fontSize:30}}>
+        <div style={{color:"blue",fontSize:20}}>
         <FaCss3Alt/>
+        <h6>CSS</h6>
         </div>
         </Roll>
         </div>
@@ -166,20 +196,24 @@ const Project = () => {
           <span className='bar'></span>
          <p>Enjoy the videos and music you love, upload original content and share it all with friends, family and the world on YouTube. 
          </p>
+         <h3 className='techstack'> TechStacks:</h3>
          <div className='icon'>
         <Roll down>
-        <div style={{color:"orangered",fontSize:30}}>
+        <div style={{color:"orangered",fontSize:20}}>
         <FaHtml5/>
+        <h6>HTML</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"yellow",fontSize:30}}>
+        <div style={{color:"yellow",fontSize:20}}>
         <SiJavascript/>
+        <h6>JS</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"blue",fontSize:30}}>
+        <div style={{color:"blue",fontSize:20}}>
         <FaCss3Alt/>
+        <h6>CSS</h6>
         </div>
         </Roll>
         </div>
@@ -199,20 +233,24 @@ const Project = () => {
           <span className='bar'></span>
          <p>Enjoy the videos and music you love, upload original content and share it all with friends, family and the world on YouTube. 
          </p>
+         <h3 className='techstack'> TechStacks:</h3>
          <div className='icon'>
         <Roll down>
-        <div style={{color:"orangered",fontSize:30}}>
+        <div style={{color:"orangered",fontSize:20}}>
         <FaHtml5/>
+        <h6>HTML</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"yellow",fontSize:30}}>
+        <div style={{color:"yellow",fontSize:20}}>
         <SiJavascript/>
+        <h6>JS</h6>
         </div>
         </Roll>
         <Roll down>
-        <div style={{color:"blue",fontSize:30}}>
+        <div style={{color:"blue",fontSize:20}}>
         <FaCss3Alt/>
+        <h6>CSS</h6>
         </div>
         </Roll>
         </div>
