@@ -9,23 +9,26 @@ import GitHubCalendar from 'react-github-calendar';
 
 const Github = () => {
   return (
-    <div>
-    <Box  color={"white"}  w="80%">
-          <h1 style={{ marginLeft: "53%",color:"#F26B8A"}}><GoCalendar className="bounce2"/>   GitHub-Calendar</h1>
-          <Box px={['2%','4%','8%','16%','24%']} py={8} mt={20} >
+
+     <div>
+     <Box  color={"white"}  w="80%">
+           <h1  className="gitname"><GoCalendar className="bounce2"/>  GitHub-Calendar</h1>
+         <Box px={['2%','4%','8%','16%','24%']} py={8} mt={20} >
             <div className='gitcalendar'>
             <Fade left>
-              <div  className="cal">           
-        <GitHubCalendar
+            <div  className="cal">           
+         <GitHubCalendar
         username="abha2510"
         blockSize={20}
         m={"auto"}
         blockMargin={6}
         fontSize={20}
         color={"#1877f2"} 
+        
         />
       
-    </div>
+    </div> 
+   
     </Fade>   
       <div className='stats'>
       <h1><TfiStatsUp className='bounce2'/>  GitHub Stats</h1>
@@ -44,5 +47,7 @@ const Github = () => {
 }
 
 export default Github
+
+
 
 

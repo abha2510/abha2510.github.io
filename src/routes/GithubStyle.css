@@ -1,11 +1,15 @@
 .gitcalendar{
-    width:150%; 
+    width:150%;    
+}
+.gitname{
+   margin-left: 53%;
+   color:#F26B8A
 }
 .cal{
     border: 2px solid #fff;
     padding: 5px;
-    box-shadow: rgb(118, 88, 100) 0px 20px 30px -10px;
-    /* color: rgb(19, 164, 227); */
+    /* box-shadow: rgb(118, 88, 100) 0px 20px 30px -10px; */
+   
 }
 .stats h1{
     margin-left: 40%;
@@ -18,7 +22,7 @@
 }
 .statimg{
     border: 0px solid rgb(64, 0, 255);
-    box-shadow: rgb(118, 88, 100) 0px 20px 30px -10px;
+    /* box-shadow: rgb(118, 88, 100) 0px 20px 30px -10px; */
 }
 .bounce2 {
     animation: bounce2 2s ease infinite;
@@ -36,10 +40,9 @@
     } 
     .cal{
         border: 0px solid red;
-        width: 100%;
-        margin-left: -80px;
+        margin: auto;
         padding: 2px;
-        height: 140px;
+        height: 150px;
 
     }
     .stats h1{
@@ -47,6 +50,15 @@
     }
     .git h1{
         font-size: medium;
+    }
+    .gitname{
+        font-size: large;
+        margin-top: -50px;
+    }
+    .gitcalendar{
+        width: 180%;
+        margin-left: -20px;
+     
     }
 } 
 /* @media screen and (max-width:1080px){

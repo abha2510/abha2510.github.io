@@ -86,9 +86,7 @@ img{
     .card-container{
     max-width: 100%;
     margin: auto;
-    grid-template-columns: repeat(2,1fr);
-
-    
+    grid-template-columns: repeat(2,1fr); 
     }
    .icon{
     margin-left: 30%;
@@ -103,9 +101,7 @@ img{
     margin-top: 3%;
     display: block;   
    }
-   .card{
-    margin-top: 20%;
-   }
+ 
    .name{
     margin: auto; 
     margin-top: 10%;
@@ -133,9 +129,9 @@ img{
    margin-left: 43%;
    margin-top: 5%;
    }
-   .card{
+   /* .card{
     margin-top: 20%;
-   }
+   } */
    .name{
     margin: auto; 
     margin-top: 10%;
