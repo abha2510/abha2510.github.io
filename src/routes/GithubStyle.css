@@ -2,15 +2,11 @@
     width:150%;    
 }
 .gitname{
-   margin-left: 53%;
-   color:#F26B8A
+    margin-left: 40%;
+    color: #F26B8A;
+    margin-bottom: 20px;
 }
-.cal{
-    border: 2px solid #fff;
-    padding: 5px;
-    /* box-shadow: rgb(118, 88, 100) 0px 20px 30px -10px; */
-   
-}
+
 .stats h1{
     margin-left: 40%;
     color:#F26B8A;
@@ -39,11 +35,9 @@
        border: 0px solid red;
     } 
     .cal{
-        border: 0px solid red;
+        border: 1px solid red;
         margin: auto;
         padding: 2px;
-        height: 150px;
-
     }
     .stats h1{
         font-size: medium;
@@ -61,11 +55,11 @@
      
     }
 } 
-/* @media screen and (max-width:1080px){
+ /* @media screen and (max-width:1080px){
     .cal{
         padding: 1;
         border: 1px solid red;
-        width: 100%;
-        margin-left: -50px;
+        width: 90%;
+        margin-left: -30px;
     }
-} */
+}  */

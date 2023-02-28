@@ -26,10 +26,8 @@ const About = () => {
         <br/>
 
         Disciplined, hard-working, and ambitious Web Developer.  
-        1200+ hours of coding and solved more than 200+ DSA questions.
         Looking forward to utilizing my current skillset and experience of working 
-        on projects to create a mark in the Web Developer position and achieve 
-        organizational goals.</p>
+        on projects to create a mark in the Web Developer position.</p>
      
       <p><a href="#contact" className="btn" >Contact</a></p>
      

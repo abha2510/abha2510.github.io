@@ -1,13 +1,14 @@
-import { Box, Text ,Icon} from '@chakra-ui/react'
+import { Box, Text ,Icon, Image} from '@chakra-ui/react'
 import React from 'react';
 import "./skillStyle.css"
 import {ImHtmlFive2} from "react-icons/im";
-import {FaCss3Alt, FaNodeJs, FaReact} from "react-icons/fa";
+import {FaCss3Alt, FaNodeJs, FaReact,FaGithub,FaTools} from "react-icons/fa";
 import {TbBrandJavascript} from "react-icons/tb"
-import { SiExpress, SiMongodb, SiRedux } from 'react-icons/si';
+import { SiExpress, SiMongodb, SiRedux ,SiNetlify} from 'react-icons/si';
 import Rotate from 'react-reveal/Rotate';
 import {SiSkillshare} from "react-icons/si"
-
+import {DiGit} from "react-icons/di";
+import {SiPostman,SiVercel} from "react-icons/si";
 const Skills = () => {
   return (
     <div className='ab'>
@@ -72,6 +73,55 @@ const Skills = () => {
         </Box>
         </Box>
         </div>
+    </Box>
+    <Box>
+    <h1 style={{marginLeft:"45%",color:"#F26B8A", marginBottom:"30px",marginTop:"20px"}}><FaTools className='bounce2'/>  Tools</h1>
+    <span className='bar2'></span>
+   <div>
+    <Box m={"auto"} w="85%">
+    <Box className='main' >
+        <Rotate top left>  
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={DiGit} w={["30px","35px","50px"]} h="90px" color="orangered"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Git</Text>
+            </Box>
+        </Box>
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={SiNetlify} w={["30px","35px","50px"]} h="90px" color="#5cebdf"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Netlify</Text>
+            </Box>
+        </Box>
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={SiPostman} w={["30px","35px","50px"]} h="90px" color="orangered"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Postman</Text>
+            </Box>
+        </Box>
+
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={FaGithub} w={["30px","35px","50px"]} h="90px" color="white"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">GitHub</Text>
+            </Box>
+        </Box>
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={SiVercel} w={["30px","35px","50px"]} h="90px" color="white"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Vercel</Text>
+            </Box>
+        </Box>
+        </Rotate>
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Image src="https://img.icons8.com/color/256/visual-studio-code-2019.png" w={["30px","35px","50px"]} h="80px" ml={["60px"]}/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">VsCode</Text>
+            </Box>
+        </Box>
+        </Box>
+    </Box>
+   </div>
     </Box>
     </div>
   )

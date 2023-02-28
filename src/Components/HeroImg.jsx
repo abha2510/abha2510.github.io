@@ -2,7 +2,7 @@ import "./HeroImgStyle.css";
 import heroImg from "../assests/hero.png"
 import React from 'react'
 import {HiOutlineHandRaised} from "react-icons/hi2";
-import resume from "../assests/Abha_Meshram_Resume.pdf"
+import resume from "../assests/fp05_397-Abha-Meshram-Resume.pdf"
 import {BsDownload} from "react-icons/bs"
 
 const HeroImg = () => {
@@ -25,7 +25,7 @@ const HeroImg = () => {
               )
             }}
             href={resume}
-            download="Abha_Meshram_Resume"
+            download="fp05_397-Abha-Meshram-Resume"
             className="btn btn-light"><BsDownload/><span style={{marginLeft:"10px"}}>Resume</span></a></p>
            
         </div>

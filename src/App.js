@@ -11,6 +11,7 @@ import Footer from './Components/Footer';
 import Github from './routes/Github';
 import Loader from './Components/Loader';
 
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {

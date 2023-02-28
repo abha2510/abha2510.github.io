@@ -1,24 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&display=swap');
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Outfit', sans-serif;
-  height: auto;
   border: 0px solid white;
 }
-body{
-  background-color: black;
+
+  body{
+background-color: black;
   overflow-x: hidden;
-}
-h1,h4,p,a{
+}  
+
+ h1,h4,p,a{
   color:white;
   text-decoration: none;
 }
-ul{
+
+ ul{
   list-style-type: none;
-}
+} 
 .btn{
   padding: 12px 32px;
   font-size: 1rem;
@@ -44,6 +46,6 @@ ul{
  }
 }
 .app{
-  /* width: 100%; */
+
   overflow:hidden
-}
+} 

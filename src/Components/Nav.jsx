@@ -5,7 +5,7 @@ import {FaBars, FaTimes} from "react-icons/fa";
 import { useState } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { Box } from '@chakra-ui/react';
-import resume from "../assests/Abha_Meshram_Resume.pdf"
+import resume from "../assests/fp05_397-Abha-Meshram-Resume.pdf"
 
 
 const Nav = () => {
@@ -52,7 +52,7 @@ window.addEventListener("scroll",changeColor)
           )
         }}
         href={resume}
-        download="Abha_Meshram_Resume"
+        download="fp05_397-Abha-Meshram-Resume"
         >Resume</a></Box>
         </li>
       </ul>
