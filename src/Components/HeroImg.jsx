@@ -1,5 +1,5 @@
 import "./HeroImgStyle.css";
-import heroImg from "../assests/hero.png"
+import heroImg from "../assests/hee.webp"
 import React from 'react'
 import {HiOutlineHandRaised} from "react-icons/hi2";
 import resume from "../assests/fp05_397-Abha-Meshram-Resume.pdf"

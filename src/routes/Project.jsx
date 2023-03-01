@@ -68,8 +68,8 @@ const Project = () => {
         </Roll>
         </div>
          <div className="button">
-         <p><a href="https://github.com/imukeshkaushal/relianceDigital_clone" className="btn" >GitHub</a></p>
-         <p><a href="https://adventurous-sweater-7809.vercel.app/" className="btn btn-light">Live</a></p>
+         <p><a href="https://github.com/abha2510/relianceDigital_clone" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://adventurous-sweater-7809.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
         </div>
         </div>
      
@@ -114,8 +114,8 @@ const Project = () => {
       </Roll>
         </div>
          <div className="button">
-         <p><a href="https://github.com/abha2510/elite-passenger-6126" className="btn" >GitHub</a></p>
-         <p><a href="https://classy-attire.vercel.app/" className="btn btn-light">Live</a></p>
+         <p><a href="https://github.com/abha2510/elite-passenger-6126" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://classy-attire.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
          </div>
         </div>
        
@@ -148,8 +148,8 @@ const Project = () => {
         </Roll>
         </div>
         <div className="button">
-         <p><a href="https://github.com/dkpradhan99/jumpy-sound-9573" className="btn" >GitHub</a></p>
-         <p><a href="https://stalwart-fox-86b96a.netlify.app/" className="btn btn-light">Live</a></p>
+         <p><a href="https://github.com/abha2510/Trip_Advisor_Clone" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://stalwart-fox-86b96a.netlify.app/" target="_blank" className="btn btn-light">Live</a></p>
          </div>
         </div>
 
@@ -182,8 +182,8 @@ const Project = () => {
         </Roll>
         </div>
          <div className="button">
-         <p><a href="https://github.com/abha2510/MealDB" className="btn" >GitHub</a></p>
-         <p><a href="https://radiant-cassata-09184b.netlify.app/" className="btn btn-light">Live</a></p>
+         <p><a href="https://github.com/abha2510/MealDB" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://radiant-cassata-09184b.netlify.app/" target="_blank" className="btn btn-light">Live</a></p>
         </div>
         </div>
 
@@ -218,8 +218,8 @@ const Project = () => {
         </Roll>
         </div>
          <div className="button">
-         <p><a href="https://github.com/abha2510/YouTube" className="btn" >GitHub</a></p>
-         <p><a href="https://golden-alpaca-d81e7d.netlify.app/" className="btn btn-light">Live</a></p>
+         <p><a href="https://github.com/abha2510/YouTube" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://golden-alpaca-d81e7d.netlify.app/" target="_blank" className="btn btn-light">Live</a></p>
         </div>
         </div>
 
@@ -255,8 +255,8 @@ const Project = () => {
         </Roll>
         </div>
          <div className="button">
-         <p><a href="https://github.com/abha2510/HotStar" className="btn" >GitHub</a></p>
-         <p><a href="https://boisterous-babka-ce6d06.netlify.app/" className="btn btn-light">Live</a></p>
+         <p><a href="https://github.com/abha2510/HotStar" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://boisterous-babka-ce6d06.netlify.app/" target="_blank" className="btn btn-light">Live</a></p>
         </div>
         </div>
 
