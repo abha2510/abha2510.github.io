@@ -31,7 +31,10 @@ const Contact = () => {
         </div>
         <div className='email'>
           <h4>
-            <a href="mailto:abha25meshram@gmail.com">
+            
+            <a onClick={()=>{
+              window.open("mailto:abha25meshram@gmail.com","blank")
+            }} >
           <EmailIcon size={20} style={{color:"#EA4335" ,marginRight:"2rem" ,}}/>abha25meshram@gmail.com
           </a>
           </h4>
@@ -40,10 +43,16 @@ const Contact = () => {
           <p>Got a project? Reach out and let's work together<br/> 
             on something exciting. Big or small. Mobile or web.</p>
             <div className='social'>
-             <a href="https://www.linkedin.com/in/abha-meshram-96b189215/">
+             <a 
+             onClick={()=>{
+              window.open("https://www.linkedin.com/in/abha-meshram-96b189215/","blank")
+             }}>
             <FaLinkedinIn size={30} style={{color:"#2832C2" ,marginRight:"2rem"}}/>
             </a>
-            <a href="https://github.com/abha2510">
+            <a 
+            onClick={()=>{
+              window.open("https://github.com/abha2510","blank")
+            }}>
             <FaGithub size={30} style={{color:"#fff" ,marginRight:"2rem"}}/>
             </a>
             </div>

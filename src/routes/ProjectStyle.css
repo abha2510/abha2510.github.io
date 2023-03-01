@@ -60,6 +60,7 @@
 .button{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    
 }
 img{
     width: 100%;
@@ -114,7 +115,7 @@ img{
     
     }
    .icon{
-    margin-left:23%;
+    margin-left:35%;
    }
    .icon div{
      margin-left: 10px;
@@ -133,6 +134,10 @@ img{
    .name{
     margin: auto; 
     margin-top: 10%;
+}
+.button{
+    margin: auto;
+    margin-right: 5px;
 }
 
 }

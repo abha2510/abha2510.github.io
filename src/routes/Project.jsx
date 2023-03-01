@@ -19,9 +19,9 @@ const Project = () => {
   return (
     <div>
      <Box className='project' id="project" color={"white"}>
-     <h1 style={{marginLeft:"43%" ,color:"#F26B8A"}}><VscProject className='bounce2'/>  PROJECTS</h1>
-   <span className='bar1'></span>
-  
+     <h1 style={{marginLeft:"42%" ,color:"#F26B8A"}}><VscProject className='bounce2'/>  PROJECTS</h1>
+   {/* <span className='bar1'></span>
+   */}
     <div className='project'>
     
       <div className='card-container'>

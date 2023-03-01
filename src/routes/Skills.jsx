@@ -78,7 +78,7 @@ const Skills = () => {
     <h1 style={{marginLeft:"45%",color:"#F26B8A", marginBottom:"30px",marginTop:"20px"}}><FaTools className='bounce2'/>  Tools</h1>
     <span className='bar2'></span>
    <div>
-    <Box m={"auto"} w="85%">
+    <Box m={"auto"} w="85%" marginBottom={20}>
     <Box className='main' >
         <Rotate top left>  
         <Box className='skillrouter'>
@@ -113,12 +113,12 @@ const Skills = () => {
             </Box>
         </Box>
         </Rotate>
-        <Box className='skillrouter'>
+        {/* <Box className='skillrouter'>
             <Box className='skillinner'>
                 <Image src="https://img.icons8.com/color/256/visual-studio-code-2019.png" w={["30px","35px","50px"]} h="80px" ml={["60px"]}/>
                 <Text fontSize={["10px","15px","20px"]} marginBottom="10%">VsCode</Text>
             </Box>
-        </Box>
+        </Box> */}
         </Box>
     </Box>
    </div>
