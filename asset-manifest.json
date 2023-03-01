@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfb01fcb.css",
-    "main.js": "/static/js/main.0f62c691.js",
+    "main.css": "/static/css/main.0d22f868.css",
+    "main.js": "/static/js/main.0e0f9db2.js",
     "static/media/hotstar.png": "/static/media/hotstar.bea903fd23f77e7bb809.png",
     "static/media/mealdb.png": "/static/media/mealdb.08aea966265cb2c7fff6.png",
     "static/media/classy.png": "/static/media/classy.bf0e7385048c0b1ad7a0.png",
@@ -10,13 +10,13 @@
     "static/media/yt.png": "/static/media/yt.5403f94162abc622f390.png",
     "static/media/fp05_397-Abha-Meshram-Resume.pdf": "/static/media/fp05_397-Abha-Meshram-Resume.7a193ac28db0b7324774.pdf",
     "static/media/no.png": "/static/media/no.3d33a2c930079cd8017a.png",
-    "static/media/hero.png": "/static/media/hero.3044ce4266496fbaf169.png",
+    "static/media/hee.webp": "/static/media/hee.5c026b95b9d73d08beec.webp",
     "index.html": "/index.html",
-    "main.cfb01fcb.css.map": "/static/css/main.cfb01fcb.css.map",
-    "main.0f62c691.js.map": "/static/js/main.0f62c691.js.map"
+    "main.0d22f868.css.map": "/static/css/main.0d22f868.css.map",
+    "main.0e0f9db2.js.map": "/static/js/main.0e0f9db2.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfb01fcb.css",
-    "static/js/main.0f62c691.js"
+    "static/css/main.0d22f868.css",
+    "static/js/main.0e0f9db2.js"
   ]
 }
