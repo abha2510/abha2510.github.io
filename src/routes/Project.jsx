@@ -69,7 +69,7 @@ const Project = () => {
         </div>
          <div className="button">
          <p><a href="https://github.com/abha2510/relianceDigital_clone" target="_blank" className="btn" >GitHub</a></p>
-         <p><a href="https://adventurous-sweater-7809.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
+         <p><a href="https://frontend-beta-wine.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
         </div>
         </div>
      
