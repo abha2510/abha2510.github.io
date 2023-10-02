@@ -21,7 +21,7 @@ const HeroImg = () => {
             <p><a 
             onClick={()=>{
               window.open(
-                "https://drive.google.com/file/d/11wDxoqQf3EdpgHsG3crmydnAiD2mKvtP/view?usp=sharing","blank"
+                "https://drive.google.com/file/d/1PRHIJs7HNQ_56XHijAIZhx70i8yLNfXH/view?usp=sharing","blank"
               )
             }}
             href={resume}
