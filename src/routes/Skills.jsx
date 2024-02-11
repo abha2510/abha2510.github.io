@@ -2,9 +2,9 @@ import { Box, Text ,Icon, Image} from '@chakra-ui/react'
 import React from 'react';
 import "./skillStyle.css"
 import {ImHtmlFive2} from "react-icons/im";
-import {FaCss3Alt, FaNodeJs, FaReact,FaGithub,FaTools} from "react-icons/fa";
+import {FaCss3Alt, FaNodeJs, FaReact,FaGithub,FaTools, FaAngular, FaBootstrap, FaBitbucket, FaHtml5, FaCss3} from "react-icons/fa";
 import {TbBrandJavascript} from "react-icons/tb"
-import { SiExpress, SiMongodb, SiRedux ,SiNetlify} from 'react-icons/si';
+import { SiExpress, SiMongodb, SiRedux ,SiNetlify, SiVisualstudiocode} from 'react-icons/si';
 import Rotate from 'react-reveal/Rotate';
 import {SiSkillshare} from "react-icons/si"
 import {DiGit} from "react-icons/di";
@@ -13,21 +13,33 @@ const Skills = () => {
   return (
     <div className='ab'>
       <Box className='skills' id="skills" w="full" color="#ffffff" p="30px 0px">
-      <h1 style={{marginLeft:"45%",color:"#F26B8A"}}><SiSkillshare className='bounce2'/>  SKILLS</h1>
-        <span className='bar2'></span>
+      <h1 style={{color:"#7eadfc",textAlign:"center", marginBottom:"50px"}}><SiSkillshare className='bounce2'/>  SKILLS</h1>
+        {/* <span className='bar2'></span> */}
         <div className='contain'>
-        <Box w="85%" m="auto">        
+        <Box w="100%" m="auto">        
         <Box className='main' >
         <Rotate top left>  
         <Box className='skillrouter'>
             <Box className='skillinner'>
-                <Icon as={ImHtmlFive2} w={["30px","35px","50px"]} h="90px" color="orangered"/>
+                <Icon as={FaAngular} w={["30px","35px","50px"]} h="90px" color="#c0012e"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Angular</Text>
+            </Box>
+        </Box>
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={FaBootstrap} w={["30px","35px","50px"]} h="90px" color="#5e478d"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Bootstrap</Text>
+            </Box>
+        </Box>
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={FaHtml5} w={["30px","35px","50px"]} h="90px" color="orangered"/>
                 <Text fontSize={["10px","15px","20px"]} marginBottom="10%">HTML</Text>
             </Box>
         </Box>
         <Box className='skillrouter'>
             <Box className='skillinner'>
-                <Icon as={FaCss3Alt} w={["30px","35px","50px"]} h="90px" color="blue"/>
+                <Icon as={FaCss3} w={["30px","35px","50px"]} h="90px" color="blue"/>
                 <Text fontSize={["10px","15px","20px"]} marginBottom="10%">CSS</Text>
             </Box>
         </Box>
@@ -75,12 +87,18 @@ const Skills = () => {
         </div>
     </Box>
     <Box>
-    <h1 style={{marginLeft:"45%",color:"#F26B8A", marginBottom:"30px",marginTop:"20px"}}><FaTools className='bounce2'/>  Tools</h1>
-    <span className='bar2'></span>
+    <h1 style={{color:"#7eadfc", marginBottom:"50px",marginTop:"20px" ,textAlign:"center"}}><FaTools className='bounce2'/>  TOOLS</h1>
+    {/* <span className='bar2'></span> */}
    <div>
-    <Box m={"auto"} w="85%" marginBottom={20}>
+    <Box m={"auto"} w="100%" marginBottom={20}>
     <Box className='main' >
         <Rotate top left>  
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={FaBitbucket} w={["30px","35px","50px"]} h="90px" color="#2581fc"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Bitbucket</Text>
+            </Box>
+        </Box>
         <Box className='skillrouter'>
             <Box className='skillinner'>
                 <Icon as={DiGit} w={["30px","35px","50px"]} h="90px" color="orangered"/>
@@ -110,6 +128,12 @@ const Skills = () => {
             <Box className='skillinner'>
                 <Icon as={SiVercel} w={["30px","35px","50px"]} h="90px" color="white"/>
                 <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Vercel</Text>
+            </Box>
+        </Box>
+        <Box className='skillrouter'>
+            <Box className='skillinner'>
+                <Icon as={SiVisualstudiocode} w={["30px","35px","50px"]} h="90px" color="#018ed5"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">VsCode</Text>
             </Box>
         </Box>
         </Rotate>

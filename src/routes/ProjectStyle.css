@@ -1,7 +1,8 @@
 .project{
     width: 100%;
-    padding: 6rem 1rem;
-    background: #000;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #131c31;
     margin: auto;
     border: 0px solid yellowgreen;
 }
@@ -21,6 +22,7 @@
     text-align: center;
     padding: 1rem;
     overflow: hidden;
+    border-radius: 20px;
 }
 .techstack{
     margin-top: 10px;
@@ -39,7 +41,7 @@
 }
 .card:hover {
    /* transform: scale(1.2); */
-   box-shadow: rgb(118, 88, 100) 0px 20px 30px -10px;
+   box-shadow: rgba(93, 158, 212, 0.12) 0px 2px 4px 0px, rgba(91, 183, 222, 0.32) 0px 2px 16px 0px;
    /* background-color: #343132; */
 }
 .bar{
@@ -47,6 +49,7 @@
     width: 18%;
     margin: 1.6rem auto;
     display: block;
+    
 
 }
 .bar1{
@@ -73,12 +76,13 @@ img{
 }
 .icon{
     display: flex;
-   margin-left: 29%;
-   margin-top:7%
+   /* margin-left: 29%; */
+   margin:7%;
+   justify-content: space-evenly;
 }
-.icon div{
+/* .icon div{
     margin-left: 10px;
-}
+} */
 .name{
     margin: auto; 
     margin-top: 10%;
@@ -89,12 +93,7 @@ img{
     margin: auto;
     grid-template-columns: repeat(2,1fr); 
     }
-   .icon{
-    margin-left: 30%;
-   }
-   .icon div{
-     margin-left: 10px;
-   }
+ 
    .bar1{
     border-bottom: 1px solid #eee;
     width: 16%;
@@ -114,13 +113,7 @@ img{
     grid-template-columns: repeat(1,1fr);
     
     }
-   .icon{
-    margin-left:35%;
-   }
-   .icon div{
-     margin-left: 10px;
-     border: 0px solid white;
-   }
+ 
    .bar1{
     border-bottom: 1px solid #eee;
     width: 23%;

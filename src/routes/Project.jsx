@@ -2,8 +2,8 @@ import { Box } from '@chakra-ui/react'
 import React from 'react';
 import "./ProjectStyle.css";
 import classy from "../assests/classy.png";
-import {FaReact} from "react-icons/fa"
-import {SiChakraui} from "react-icons/si";
+import {FaNodeJs, FaReact} from "react-icons/fa"
+import {SiChakraui, SiExpress} from "react-icons/si";
 import {FaHtml5} from "react-icons/fa";
 import {SiJavascript,SiRedux} from "react-icons/si";
 import {FaCss3Alt} from "react-icons/fa";
@@ -14,17 +14,61 @@ import mealdb from "../assests/mealdb.png"
 import hotstar from "../assests/hotstar.png"
 import {VscProject} from "react-icons/vsc";
 import digital from "../assests/digital.png";
+import { DiMongodb, DiPython } from 'react-icons/di';
+import quicksell from "../assests/quicksell.png";
+import influencer from "../assests/influencer.png";
 
 const Project = () => {
   return (
     <div>
      <Box className='project' id="project" color={"white"}>
-     <h1 style={{marginLeft:"42%" ,color:"#F26B8A"}}><VscProject className='bounce2'/>  PROJECTS</h1>
+     <h1 style={{textAlign:"center" ,color:"#7eadfc"}}><VscProject className='bounce2'/>  PROJECTS</h1>
    {/* <span className='bar1'></span>
    */}
     <div className='project'>
     
       <div className='card-container'>
+
+      <div className='card'>
+          <img src={quicksell} alt="quicksell" />
+         
+          <h1 className='name'>QuickSell</h1>
+          <span className='bar'></span>
+         <p>Experience a platform inspired by OLX, designed to streamline the buying and selling process for users.
+         </p>
+         <h3 className='techstack'> TechStacks:</h3>
+         <div className='icon'>
+         <Roll down>
+        <div style={{color:"green",fontSize:20 }}>
+        <DiMongodb/>
+        <h6>MongoDB</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"white",fontSize:20 }}>
+        <SiExpress/>
+        <h6>Express</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"#00ffff",fontSize:20}}>
+        <FaReact/>
+        <h6>React</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"#74b72e",fontSize:20 }}>
+        <FaNodeJs/>
+        <h6>Node</h6>
+        </div>
+        </Roll>
+        </div>
+         <div className="button">
+         <p><a href="https://github.com/abha2510/Quicksell_MERN" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://quick-sell-frontend-nine.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
+        </div>
+        </div>
+
 
       <div className='card'>
           <img src={digital} alt="digitalXpress" />
@@ -37,7 +81,7 @@ const Project = () => {
          <h3 className='techstack'> TechStacks:</h3>
          <div className='icon'>
         <Roll down>
-        <div style={{color:"#AF69EF",fontSize:20 , marginLeft:"-40px"}}>
+        <div style={{color:"#AF69EF",fontSize:20 }}>
         <SiRedux/>
         <h6>Redux</h6>
         </div>
@@ -73,7 +117,51 @@ const Project = () => {
         </div>
         </div>
      
-
+        <div className='card'>
+          <img src={influencer} alt="influencer" />
+         
+          <h1 className='name'>Parent Influencer</h1>
+          <span className='bar'></span>
+         <p>The parent influencer is a chatbot that mimics YouTube influencers to influence parents regarding their children's problems.
+         </p>
+         <h3 className='techstack'> TechStacks:</h3>
+         <div className='icon'>
+         <Roll down>
+        <div style={{color:"green",fontSize:20 }}>
+        <DiMongodb/>
+        <h6>MongoDB</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"white",fontSize:20 }}>
+        <SiExpress/>
+        <h6>Express</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"#00ffff",fontSize:20}}>
+        <FaReact/>
+        <h6>React</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"#74b72e",fontSize:20 }}>
+        <FaNodeJs/>
+        <h6>Node</h6>
+        </div>
+        </Roll>
+        <Roll down>
+        <div style={{color:"yellow",fontSize:20 }}>
+        <DiPython/>
+        <h6>Python</h6>
+        </div>
+        </Roll>
+        </div>
+         <div className="button">
+         <p><a href="https://github.com/abha2510/influencer_frotend" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://influencer-frotend.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
+        </div>
+        </div>
         <div className='card'>
           <img  src={classy} alt="classyattire" />
          
@@ -83,7 +171,7 @@ const Project = () => {
         <h3 className='techstack'> TechStacks:</h3>
        <div className='icon'>
        <Roll down>
-        <div style={{color:"#00ffff",fontSize:20 , marginLeft:"-40px"}}>
+        <div style={{color:"#00ffff",fontSize:20}}>
         <FaReact/>
         <h6>React</h6>
         </div>

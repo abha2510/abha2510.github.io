@@ -13,10 +13,9 @@ const Contact = () => {
       <Box className='contact' id="contact">
       <div>
       <div className='contactDetail'>
-      <Zoom bottom>
+      {/* <Zoom bottom> */}
       <div className='le'>
-      <h1 style={{color: "#F26B8A",marginTop: "-10px"}}><IoMdContacts className='bounce2'/> CONTACT</h1>
-   <span className='ba'></span>
+      <h1 style={{color: "#7eadfc",marginTop: "-10px"}}><IoMdContacts/> CONTACT</h1>
            <div className='location'>
             <FaHome size={20} style={{color:"#4285F4" ,marginRight:"2rem"}}/>          
            <div>
@@ -45,7 +44,7 @@ const Contact = () => {
             <div className='social'>
              <a 
              onClick={()=>{
-              window.open("https://www.linkedin.com/in/abha-meshram-96b189215/","blank")
+              window.open("https://www.linkedin.com/in/abhameshram/","blank")
              }}>
             <FaLinkedinIn size={30} style={{color:"#2832C2" ,marginRight:"2rem"}}/>
             </a>
@@ -57,7 +56,7 @@ const Contact = () => {
             </a>
             </div>
         </div>
-        </Zoom>
+        {/* </Zoom> */}
         </div>
         </div>
         </Box>    

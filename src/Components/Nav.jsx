@@ -25,8 +25,7 @@ window.addEventListener("scroll",changeColor)
     <>    
     <div className={color?"header header-bg":"header"}>
       <Link to="/">
-        <h1 className='name'><ChevronLeftIcon style={{fontSize:"40",color:"#F26B8A"}}/>Abha <span style={{color:"#F26B8A"}}>/</span>
-        <ChevronRightIcon style={{fontSize:"40",marginLeft:"-8",color:"#F26B8A"}}/></h1>
+        <h1 className='name'>Abha</h1>
       </Link>
       <ul className={click?"nav-menu active":"nav-menu"}>
         <li>
@@ -48,7 +47,7 @@ window.addEventListener("scroll",changeColor)
         <Box><a 
          onClick={()=>{
           window.open(
-            "https://drive.google.com/file/d/1PRHIJs7HNQ_56XHijAIZhx70i8yLNfXH/view?usp=sharing","blank"
+            "https://drive.google.com/file/d/1Uw8qUiTmnN3Jeg3LKeH05zyCtB1IYTEZ/view","blank"
           )
         }}
         href={resume}
