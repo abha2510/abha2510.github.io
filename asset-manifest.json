@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.29753daf.css",
-    "main.js": "/static/js/main.8b2d1dfa.js",
+    "main.css": "/static/css/main.b7d36c32.css",
+    "main.js": "/static/js/main.075f7ff5.js",
     "static/media/hotstar.png": "/static/media/hotstar.bea903fd23f77e7bb809.png",
     "static/media/mealdb.png": "/static/media/mealdb.08aea966265cb2c7fff6.png",
     "static/media/classy.png": "/static/media/classy.bf0e7385048c0b1ad7a0.png",
@@ -10,15 +10,15 @@
     "static/media/yt.png": "/static/media/yt.5403f94162abc622f390.png",
     "static/media/quicksell.png": "/static/media/quicksell.786448625737f278b136.png",
     "static/media/herogif.gif": "/static/media/herogif.4c2f04e364dbb01ab29c.gif",
-    "static/media/Abha-Meshram-Resume.pdf": "/static/media/Abha-Meshram-Resume.7a193ac28db0b7324774.pdf",
+    "static/media/Abha-Meshram-Resume.pdf": "/static/media/Abha-Meshram-Resume.f45969d6683027d3ff05.pdf",
     "static/media/influencer.png": "/static/media/influencer.675ba3ed756227b15128.png",
     "static/media/no.png": "/static/media/no.3d33a2c930079cd8017a.png",
     "index.html": "/index.html",
-    "main.29753daf.css.map": "/static/css/main.29753daf.css.map",
-    "main.8b2d1dfa.js.map": "/static/js/main.8b2d1dfa.js.map"
+    "main.b7d36c32.css.map": "/static/css/main.b7d36c32.css.map",
+    "main.075f7ff5.js.map": "/static/js/main.075f7ff5.js.map"
   },
   "entrypoints": [
-    "static/css/main.29753daf.css",
-    "static/js/main.8b2d1dfa.js"
+    "static/css/main.b7d36c32.css",
+    "static/js/main.075f7ff5.js"
   ]
 }
