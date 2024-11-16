@@ -13,10 +13,12 @@
     border-radius: 20px;
    
 }
+
 .abt .left{
     padding: 1rem;
     max-width: 600px;
     line-height: 1.6;
+    width: 50%;
 }
 .bounce2 {
   animation: bounce2 2s ease infinite;
@@ -27,9 +29,6 @@
 	60% {transform: translateY(-15px);}
 }
 
-.abt .right{
-    border: 0px solid red;
-}
 .right .img-container{
     display: grid;
     grid-template-columns: repeat(10,1fr);
@@ -37,11 +36,25 @@
     align-items: center;
     text-align: center;
 }
+.img-stack.top {
+  position: relative;
+  display: inline-block;
+  width: 100%; /* Adjust this for responsiveness */
+  max-width: 300px; /* Limit max width for the image */
+  height: auto; /* Maintain aspect ratio */
+  overflow: hidden;
+}
 
+.img{
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+  border-radius: 10px; 
+}
 .right .top{
     grid-column: 1 / span 8;
     grid-row: 1;
-    padding-top: 20%;
+    padding: 20px;
     z-index: 6;
 }
 .detail{
@@ -89,20 +102,21 @@
     
     color: red;
   }
-  @media screen and (max-width:1080px){
-    .right .img{
-      border: 0px solid #333;
-      margin-left: 33px;
-  }
-  /* .detail{
-    text-align: center;
-  } */
-  }
+
   @media screen and (max-width:760px){
     .left h1{
       border: 0px solid rgb(36, 220, 214);
       /* margin-left: 35px; */
       text-align: center;
     }
-   
+    .abt{
+      display: block;
+      
+    }
+    .abt .left{
+      width: 100%;
+    }
+    .right .img-container {
+      grid-template-columns: repeat(5, 1fr);
+    }
   }

@@ -2,17 +2,18 @@ import "./HeroImgStyle.css";
 import heroImg from "../assests/herogif.gif"
 import React from 'react'
 import {HiOutlineHandRaised} from "react-icons/hi2";
-import resume from "../assests/Abha-Meshram-Resume.pdf"
+import resume from "../assests/Abha_Meshram_Resume.pdf"
 import {BsDownload} from "react-icons/bs"
-import { Flex } from "@chakra-ui/react";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import bg from "../assests/bg.gif";
+
 
 const HeroImg = () => {
   return (
     <div className="hero">
       <div className="mask">
         <img className="into-img"
-        src={heroImg} alt="hero"/>
+        src={bg} alt="hero"/>
       </div>
       <div className="content">
   
@@ -39,7 +40,7 @@ const HeroImg = () => {
             <p><a 
             onClick={()=>{
               window.open(
-                "https://drive.google.com/file/d/1Uw8qUiTmnN3Jeg3LKeH05zyCtB1IYTEZ/view","blank"
+                "https://drive.google.com/file/d/1LS7hUXYOm3_yEavUw8srfk2nqRbNvaCZ/view?usp=sharing","blank"
               )
             }}
             href={resume}

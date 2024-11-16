@@ -5,7 +5,7 @@ import {FaBars, FaTimes} from "react-icons/fa";
 import { useState } from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@chakra-ui/icons';
 import { Box } from '@chakra-ui/react';
-import resume from "../assests/Abha-Meshram-Resume.pdf"
+import resume from "../assests/Abha_Meshram_Resume.pdf"
 
 
 const Nav = () => {
@@ -47,7 +47,7 @@ window.addEventListener("scroll",changeColor)
         <Box><a 
          onClick={()=>{
           window.open(
-            "https://drive.google.com/file/d/1Uw8qUiTmnN3Jeg3LKeH05zyCtB1IYTEZ/view","blank"
+            "https://drive.google.com/file/d/1LS7hUXYOm3_yEavUw8srfk2nqRbNvaCZ/view?usp=sharing","blank"
           )
         }}
         href={resume}

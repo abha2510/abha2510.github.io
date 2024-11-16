@@ -5,6 +5,7 @@ import no from "../assests/no.png";
 import { Box } from '@chakra-ui/react';
 import {FaUserAlt} from "react-icons/fa"
 import { Rotate } from 'react-reveal';
+import abha from "../assests/abha2.jpeg"
 
 //#F26B8A
 const About = () => {
@@ -16,7 +17,7 @@ const About = () => {
     <div className='right'>
       <div className='img-container'>
         <div className='img-stack top'>
-       <img src={no} alt="abha" className='img' />
+       <img src={abha} alt="abha" className='img' />
        </div>
       </div>
    </div>

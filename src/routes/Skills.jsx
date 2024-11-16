@@ -25,6 +25,12 @@ const Skills = () => {
                 <Text fontSize={["10px","15px","20px"]} marginBottom="10%">Angular</Text>
             </Box>
         </Box>
+        <Box className='skillrouter' >
+            <Box className='skillinner' >
+                <Icon as={FaReact} w={["30px","35px","50px"]} h="100px" color="#82EEFD"/>
+                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">React</Text>
+            </Box>
+        </Box>
         <Box className='skillrouter'>
             <Box className='skillinner'>
                 <Icon as={FaBootstrap} w={["30px","35px","50px"]} h="90px" color="#5e478d"/>
@@ -47,12 +53,6 @@ const Skills = () => {
             <Box className='skillinner'>
                 <Icon as={TbBrandJavascript} w={["30px","35px","50px"]} h="100px" color="yellow"/>
                 <Text fontSize={["10px","15px","20px"]} marginBottom="10%">JS</Text>
-            </Box>
-        </Box>
-        <Box className='skillrouter' >
-            <Box className='skillinner' >
-                <Icon as={FaReact} w={["30px","35px","50px"]} h="100px" color="#82EEFD"/>
-                <Text fontSize={["10px","15px","20px"]} marginBottom="10%">React</Text>
             </Box>
         </Box>
         </Rotate>

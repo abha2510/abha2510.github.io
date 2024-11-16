@@ -30,7 +30,7 @@ const Project = () => {
       <div className='card-container'>
 
       <div className='card'>
-          <img src={quicksell} alt="quicksell" />
+          <img src={quicksell} alt="quicksell"  className='card-img'/>
          
           <h1 className='name'>QuickSell</h1>
           <span className='bar'></span>
@@ -71,7 +71,7 @@ const Project = () => {
 
 
       <div className='card'>
-          <img src={digital} alt="digitalXpress" />
+          <img src={digital} alt="digitalXpress" className='card-img'/>
          
           <h1 className='name'>Digital Xpress</h1>
           <span className='bar'></span>
@@ -113,12 +113,12 @@ const Project = () => {
         </div>
          <div className="button">
          <p><a href="https://github.com/abha2510/relianceDigital_clone" target="_blank" className="btn" >GitHub</a></p>
-         <p><a href="https://frontend-beta-wine.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
+         <p><a href="https://reliance-digital-beryl.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
         </div>
         </div>
      
         <div className='card'>
-          <img src={influencer} alt="influencer" />
+          <img src={influencer} alt="influencer" className='card-img'/>
          
           <h1 className='name'>Parent Influencer</h1>
           <span className='bar'></span>
@@ -163,25 +163,14 @@ const Project = () => {
         </div>
         </div>
         <div className='card'>
-          <img  src={classy} alt="classyattire" />
+          <img src={yt} alt="youtube" className='card-img'/>
          
-          <h1 className='name'>Classy Attire</h1>
+          <h1 className='name'>YouTube</h1>
           <span className='bar'></span>
-         <p>Classy Attire as a trendy, youthful and vibrant store, Classy Attire offers consumers an enjoyable shopping experience.</p>
-        <h3 className='techstack'> TechStacks:</h3>
-       <div className='icon'>
-       <Roll down>
-        <div style={{color:"#00ffff",fontSize:20}}>
-        <FaReact/>
-        <h6>React</h6>
-        </div>
-        </Roll>
-        <Roll down>
-        <div style={{color:"#00cdcd",fontSize:20}}>
-        <SiChakraui/>
-        <h6>ChakraUI</h6>
-        </div>
-        </Roll>
+         <p>Enjoy the videos and music you love, upload original content and share it all with friends, family and the world on YouTube. 
+         </p>
+         <h3 className='techstack'> TechStacks:</h3>
+         <div className='icon'>
         <Roll down>
         <div style={{color:"orangered",fontSize:20}}>
         <FaHtml5/>
@@ -199,17 +188,15 @@ const Project = () => {
         <FaCss3Alt/>
         <h6>CSS</h6>
         </div>
-      </Roll>
+        </Roll>
         </div>
          <div className="button">
-         <p><a href="https://github.com/abha2510/elite-passenger-6126" target="_blank" className="btn" >GitHub</a></p>
-         <p><a href="https://classy-attire.vercel.app/" target="_blank" className="btn btn-light">Live</a></p>
-         </div>
+         <p><a href="https://github.com/abha2510/YouTube" target="_blank" className="btn" >GitHub</a></p>
+         <p><a href="https://golden-alpaca-d81e7d.netlify.app/" target="_blank" className="btn btn-light">Live</a></p>
         </div>
-       
-
+        </div>
         <div className='card'>
-          <img src={travel} alt="traveladvisor" />
+          <img src={travel} alt="traveladvisor" className='card-img'/>
         
           <h1 className='name'>Traveladvisor</h1>
           <span className='bar'></span>
@@ -242,7 +229,7 @@ const Project = () => {
         </div>
 
         <div className='card'>
-          <img src={mealdb} alt="MealDb" />
+          <img src={mealdb} alt="MealDb" className='card-img'/>
          
           <h1 className='name'>TheMealDB</h1>
           <span className='bar'></span>
@@ -275,47 +262,8 @@ const Project = () => {
         </div>
         </div>
 
-
-
         <div className='card'>
-          <img src={yt} alt="youtube" />
-         
-          <h1 className='name'>YouTube</h1>
-          <span className='bar'></span>
-         <p>Enjoy the videos and music you love, upload original content and share it all with friends, family and the world on YouTube. 
-         </p>
-         <h3 className='techstack'> TechStacks:</h3>
-         <div className='icon'>
-        <Roll down>
-        <div style={{color:"orangered",fontSize:20}}>
-        <FaHtml5/>
-        <h6>HTML</h6>
-        </div>
-        </Roll>
-        <Roll down>
-        <div style={{color:"yellow",fontSize:20}}>
-        <SiJavascript/>
-        <h6>JS</h6>
-        </div>
-        </Roll>
-        <Roll down>
-        <div style={{color:"blue",fontSize:20}}>
-        <FaCss3Alt/>
-        <h6>CSS</h6>
-        </div>
-        </Roll>
-        </div>
-         <div className="button">
-         <p><a href="https://github.com/abha2510/YouTube" target="_blank" className="btn" >GitHub</a></p>
-         <p><a href="https://golden-alpaca-d81e7d.netlify.app/" target="_blank" className="btn btn-light">Live</a></p>
-        </div>
-        </div>
-
-
-
-
-        <div className='card'>
-          <img src={hotstar} alt="hotstar" />
+          <img src={hotstar} alt="hotstar" className='card-img'/>
          
           <h1 className='name'>HotStar</h1>
           <span className='bar'></span>
