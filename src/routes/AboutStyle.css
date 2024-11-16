@@ -121,4 +121,7 @@
     .right .img-container {
       grid-template-columns: repeat(5, 1fr);
     }
+    .right{
+      padding: 10px;
+    }
   }
