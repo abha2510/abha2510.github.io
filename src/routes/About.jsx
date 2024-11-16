@@ -5,7 +5,7 @@ import no from "../assests/no.png";
 import { Box } from '@chakra-ui/react';
 import {FaUserAlt} from "react-icons/fa"
 import { Rotate } from 'react-reveal';
-import abha from "../assests/abha2.jpeg"
+import abha from "../assests/abha1.jpg"
 
 //#F26B8A
 const About = () => {

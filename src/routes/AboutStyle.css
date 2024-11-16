@@ -39,9 +39,9 @@
 .img-stack.top {
   position: relative;
   display: inline-block;
-  width: 100%; /* Adjust this for responsiveness */
-  max-width: 300px; /* Limit max width for the image */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%; 
+  max-width: 300px; 
+  height: auto; 
   overflow: hidden;
 }
 
@@ -51,10 +51,12 @@
   object-fit: cover;
   border-radius: 10px; 
 }
+.right{
+  padding: 46px;
+}
 .right .top{
     grid-column: 1 / span 8;
     grid-row: 1;
-    padding: 20px;
     z-index: 6;
 }
 .detail{
